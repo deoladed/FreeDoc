@@ -1,4 +1,4 @@
-# Bienvenu dans le blog des familles !
+# Bienvenu dans FreeDoc !
 Ruby version : 2.5.1
 Rails vers : 5.2.1
 --------------------------------------
