@@ -20,6 +20,10 @@ end
 	Specialty.create(name: Faker::Hacker.adjective)
 end
 
-20.times do
-	DoctorSpecialty.create(doctor: Doctor.all.sample, specialty: Specialty.all.sample)
+10.times do
+ Doctor.all.sample.specialties << Specialty.all.sample
+end
+
+10.times do
+	Specialty.all.sample.doctors << Doctor.all.sample
 end
