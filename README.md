@@ -1,24 +1,12 @@
-# README
+# Bienvenu dans le blog des familles !
+Ruby version : 2.5.1
+Rails vers : 5.2.1
+--------------------------------------
+## Contenu
+Une DB contenant des patients et des doctors, qui ont tous des appointments en mode N-N
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Utilisation
+Apres le *git clone*, faite biensur un *bundle install* puis un *rails db:seed* pour creer la DB =)
 
-Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#### Courage jeune correcteur !
